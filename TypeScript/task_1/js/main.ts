@@ -60,8 +60,8 @@ interface StudentConstructor {
 }
 
 interface StudentClassInterface {
-    workOnHomework(): string; // Método que devuelve un string
-    displayName(): string;     // Método que devuelve el nombre del estudiante
+    workOnHomework(): string;
+    displayName(): string;
 }
 
 class StudentClass implements StudentClassInterface {
