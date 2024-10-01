@@ -54,3 +54,14 @@ var employee1 = createEmployee(200);
 console.log(executeWork(employee1));
 var employee2 = createEmployee(1000);
 console.log(executeWork(employee2));
+function teachClass(todayClass) {
+    if (todayClass === "Math") {
+        return "Teaching Math";
+    }
+    else if (todayClass === "History") {
+        return "Teaching History";
+    }
+    return "";
+}
+console.log(teachClass("Math"));
+console.log(teachClass("History"));

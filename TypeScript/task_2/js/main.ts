@@ -74,3 +74,20 @@ console.log(executeWork(employee1));
 
 const employee2 = createEmployee(1000);
 console.log(executeWork(employee2));  
+
+
+// 7. String literal types
+
+type Subjects = "Math" | "History";
+
+function teachClass(todayClass: Subjects): string {
+    if (todayClass === "Math") {
+        return "Teaching Math";
+    } else if (todayClass === "History") {
+        return "Teaching History";
+    }
+    return "";
+}
+
+console.log(teachClass("Math"));
+console.log(teachClass("History"));
